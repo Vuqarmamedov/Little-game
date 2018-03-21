@@ -1,0 +1,23 @@
+#main{
+	background: url(img/01.jpg) no-repeat center; 
+	background-size: cover; 
+	width: 500px;
+	height: 500px;
+	border: 1px solid black;
+	float: left;
+}
+img {
+    position: absolute;
+    z-index: 2;
+    width:50px;
+    height: 50px;
+    cursor: pointer;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+#addBtn{
+	width: 60px;
+	height: 30px;
+}
